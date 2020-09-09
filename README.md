@@ -26,6 +26,8 @@ The function selectThreshold.m uses a cross validation set, where the label y=1 
 
 In the code selectThreshold.m, a loop will try many different values of ε and select the "best" based  on the F1 score. This will allow us to find the outliers in our training set! Finally, we can use the function visualizeFit.m to show the entire dataset, with the anomalous data clearly marked. 
 
+![Anomaly Detection 2D](https://github.com/amandalesar/anomaly_detection/blob/master/images/anomalydetection2d.png)
+
 While this implementation is very useful for 2D datasets, if we want to look at a more realistic dataset, that's easy enough. We will use the exact same code to find the outliers! We just won't be able to visualize it for higher dimensonal data. 
 
 Note that this anomaly detection system does not depend at all on the examples we've chosen! Thus, you can simply replace the imported data with data of your choosing, and detect anomalies in your own data!
